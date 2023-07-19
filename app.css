@@ -1,0 +1,107 @@
+body {
+    background-color:rgb(2, 94, 94)
+}
+
+label {
+    font-size: larger;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+#url {
+   width: 80%;
+   margin-bottom: 15px;
+}
+
+#topText {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#bottomText {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+input[type='submit'] {
+   width: 100px;
+   height: 30px;
+   border-radius: 100px;
+   border: 0px;
+   margin-top: 5px;
+   margin-left: 15%;
+   background-color: rgb(179, 161, 0);
+}
+
+input[type='submit']:hover {
+    background-color: rgb(179, 161, 0);
+    opacity: .7;
+    cursor: pointer;
+}
+
+.pictures img {
+    width: 300px;
+    height: 180px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.divTop {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    overflow-wrap: break-word;
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
+
+.divBottom {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -10px;
+    overflow-wrap: break-word;
+    color: white;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
+
+.memeHolder {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.memeHolder:hover p {
+    opacity: 1;
+}
+
+.memeHolder:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    top: -165px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+    opacity: 0;
+}
+
+
